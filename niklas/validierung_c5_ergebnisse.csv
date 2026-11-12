@@ -1,0 +1,18 @@
+C5 – Validierung im Kleinen;Wert
+Gittergröße;512 × 512
+Zeitschritte;200
+Prozesse;1 vs. 4
+Größte Temperaturabweichung;0
+Kleinste Temperatur P1;0
+Größte Temperatur P1;100
+Kleinste Temperatur P4;0
+Größte Temperatur P4;100
+Links-rechts-Symmetrie P4;2.8421709430404007e-14
+
+Prüfung;Bestanden
+Gitter beider Ergebnisse 512 × 512;Ja
+Numerische Ergebnisse exakt gleich;Ja
+Temperaturwerte zwischen 0 und 100;Ja
+Links-rechts-Symmetrie bis auf Rundung;Ja
+Oberer Rand dauerhaft 100;Ja
+Unterer und seitliche Ränder 0;Ja
