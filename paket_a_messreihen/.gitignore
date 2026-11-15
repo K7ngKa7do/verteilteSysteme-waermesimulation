@@ -1,0 +1,2 @@
+# Abbildungen dieses Ordners sollen versioniert werden (die oberste .gitignore schliesst *.png aus)
+!*.png
