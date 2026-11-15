@@ -1,0 +1,28 @@
+E1 Zeilen 360
+   [Info] Welche Komm%-Definition passt: {'N^2': 6, 'Median(komm)/Median(zeit)': 12, 'Median(komm/zeit)': 5, '(N-2)^2': 1}
+== E1 (Zeilen 123-139): 51 Werte stimmen, 0 Abweichungen
+   [Info] Komm%-Definition: {'Median(komm)/Median(zeit)': 16, 'Median(komm/zeit)': 6}
+== E2 (Zeilen 153-171): 79 Werte stimmen, 0 Abweichungen
+e2b/e2d Zeilen 80 80 160
+   [Info] Anteil an 48er-Geschw. N=2048 P=24: Ref 28.10. 88.0 %  | Ref E1 01.11. 86.5 %
+   [Info] Anteil an 48er-Geschw. N=2048 P=36: Ref 28.10. 96.5 %  | Ref E1 01.11. 94.8 %
+   [Info] Anteil an 48er-Geschw. N=4096 P=24: Ref 28.10. 88.5 %  | Ref E1 01.11. 88.7 %
+   [Info] Anteil an 48er-Geschw. N=4096 P=36: Ref 28.10. 98.1 %  | Ref E1 01.11. 98.3 %
+   [Info] Reproduzierbarkeit slot 01.11. gegen 28.10. (%):
+      e2 N=2048 P=4: +0.3 %
+      e2 N=2048 P=8: +2.7 %
+      e2 N=2048 P=12: -0.0 %
+      e2 N=2048 P=24: -1.5 %
+      e2 N=4096 P=4: +0.6 %
+      e2 N=4096 P=8: +0.5 %
+      e2 N=4096 P=12: +0.4 %
+      e2 N=4096 P=24: +0.3 %
+      e2b N=2048 P=2: +0.2 %
+      e2b N=2048 P=36: -0.5 %
+      e2b N=4096 P=2: -0.2 %
+      e2b N=4096 P=36: +0.3 %
+== E2b/E2d (Zeilen 208-217): 33 Werte stimmen, 2 Abweichungen
+   ABWEICHUNG: E2d N=2048 P=36 S | Protokoll: 9,12 | neu: 9.11282
+   ABWEICHUNG: E2d N=2048 P=48 S | Protokoll: 9,45 | neu: 9.44256
+== E2c (Zeilen 220-232): 63 Werte stimmen, 0 Abweichungen
+== E11 Karp-Flatt (Zeilen 177-178): 14 Werte stimmen, 0 Abweichungen

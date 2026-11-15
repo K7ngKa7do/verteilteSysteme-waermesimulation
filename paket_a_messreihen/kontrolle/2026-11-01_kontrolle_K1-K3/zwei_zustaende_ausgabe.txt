@@ -1,0 +1,10 @@
+e1_groesse;P=1;N=2048;n=20;schwelle=1.775;n_schnell=3;med_schnell=1.3341;n_langsam=17;med_langsam=2.2133;faktor=1.66;anteil_langsam_%=85;median_gesamt=2.2131
+e2_node;P=12;N=4096;n=20;schwelle=1.898;n_schnell=19;med_schnell=0.7892;n_langsam=1;med_langsam=2.3313;faktor=2.95;anteil_langsam_%=5;median_gesamt=0.7892
+e2_slot;P=4;N=4096;n=20;schwelle=2.237;n_schnell=5;med_schnell=1.9550;n_langsam=15;med_langsam=2.5460;faktor=1.30;anteil_langsam_%=75;median_gesamt=2.5226
+e2b_node;P=2;N=2048;n=20;schwelle=0.868;n_schnell=16;med_schnell=0.6896;n_langsam=4;med_langsam=1.1062;faktor=1.60;anteil_langsam_%=20;median_gesamt=0.6902
+e2c_node;P=12;N=8192;n=20;schwelle=4.407;n_schnell=15;med_schnell=2.9693;n_langsam=5;med_langsam=5.1694;faktor=1.74;anteil_langsam_%=25;median_gesamt=3.3322
+e2c_node;P=24;N=8192;n=20;schwelle=4.860;n_schnell=13;med_schnell=2.5718;n_langsam=7;med_langsam=8.2767;faktor=3.22;anteil_langsam_%=35;median_gesamt=2.6041
+e2c_ppr_P12;P=12;N=8192;n=20;schwelle=2.940;n_schnell=13;med_schnell=2.5149;n_langsam=7;med_langsam=3.3680;faktor=1.34;anteil_langsam_%=35;median_gesamt=2.5526
+e4_bloecke_P12;P=12;N=8192;n=20;schwelle=2.647;n_schnell=10;med_schnell=2.3823;n_langsam=10;med_langsam=3.2554;faktor=1.37;anteil_langsam_%=50;median_gesamt=2.6468
+e5_overlap_P12;P=12;N=8192;n=20;schwelle=2.892;n_schnell=9;med_schnell=2.4441;n_langsam=11;med_langsam=3.2946;faktor=1.35;anteil_langsam_%=55;median_gesamt=3.2266
+e5b_nb_P12;P=12;N=8192;n=20;schwelle=2.793;n_schnell=7;med_schnell=2.3912;n_langsam=13;med_langsam=3.3566;faktor=1.40;anteil_langsam_%=65;median_gesamt=3.2525

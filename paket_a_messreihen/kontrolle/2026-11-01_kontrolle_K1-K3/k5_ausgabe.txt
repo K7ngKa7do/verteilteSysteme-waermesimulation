@@ -1,0 +1,15 @@
+   [Info] E7 N=2048 Punkte der Liste: s_fit=0.0841, S_max=11.9  (Protokoll s=0,0841, S_max=11,9)
+   [Info] größte Abweichung N=2048: 0.14
+   [Info] E7 N=2048 zusätzlich P=1 (S=1): s_fit=0.0841, S_max=11.9  (Protokoll s=0,0841, S_max=11,9)
+   [Info] E7 N=4096 Punkte der Liste: s_fit=0.0651, S_max=15.4  (Protokoll s=0,0651, S_max=15,4)
+   [Info] größte Abweichung N=4096: 0.52
+   [Info] E7 N=4096 zusätzlich P=1 (S=1): s_fit=0.0651, S_max=15.4  (Protokoll s=0,0651, S_max=15,4)
+   [Info] E7 N=8192 Punkte der Liste: s_fit=0.0599, S_max=16.7  (Protokoll s=0,0599, S_max=16,7)
+   [Info] größte Abweichung N=8192: 1.25
+   [Info] E7 N=8192 zusätzlich P=1 (S=1): s_fit=0.0599, S_max=16.7  (Protokoll s=0,0599, S_max=16,7)
+== E7 (Zeilen 304-310): 36 Werte stimmen, 0 Abweichungen
+== E13 (Zeilen 315-321): 27 Werte stimmen, 0 Abweichungen
+E13b Spalten ['P', 'N', 'schritte', 'zeit_s', 'komm_max_s', 'summe', 'cpu_start', 'cpu_ende', 'mhz_start', 'mhz_ende', 'sockel', 'zwilling'] 200
+   [Info] Frequenz kHz: min 3408553 max 3500246; Sockel-Werte ['0']; Zwilling ['0-1']
+== E13b (Zeilen 325-327): 11 Werte stimmen, 1 Abweichungen
+   ABWEICHUNG: E13b Median langsam | Protokoll: 2,2077 | neu: 2.20998

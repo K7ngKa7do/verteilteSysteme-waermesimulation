@@ -1,0 +1,20 @@
+test20 Zeilen: 40
+   [Info] numba 2048: Mio Upd/s mit N^2: 630.3; mit (N-2)^2: 629.1
+   [Info] numba 4096: Mio Upd/s mit N^2: 649.1; mit (N-2)^2: 648.5
+   [Info] numpy 2048: Mio Upd/s mit N^2: 77.9; mit (N-2)^2: 77.8
+== A4/A5 (test, test20, baseline): 37 Werte stimmen, 0 Abweichungen
+a_strong Zeilen: 320
+== A7 Strong-Scaling-Tabellen (Zeilen 41, 44): 96 Werte stimmen, 0 Abweichungen
+   [Info] Weak P=12: Mio Upd/s mit N^2 1846.3, mit (N-2)^2 1844.5, E% 100.00
+   [Info] Weak P=24: Mio Upd/s mit N^2 3802.3, mit (N-2)^2 3799.7, E% 102.96
+   [Info] Weak P=48: Mio Upd/s mit N^2 7374.8, mit (N-2)^2 7371.2, E% 99.86
+== A6/A7 Weak Scaling (Zeile 46, 96): 12 Werte stimmen, 3 Abweichungen
+   ABWEICHUNG: Weak P=12 Mio Upd/s (N^2) | Protokoll: 1845 | neu: 1846.32
+   ABWEICHUNG: Weak P=24 Mio Upd/s (N^2) | Protokoll: 3800 | neu: 3802.3
+   ABWEICHUNG: Weak P=48 Mio Upd/s (N^2) | Protokoll: 7371 | neu: 7374.78
+== A7 Teil 7 Tabelle (Zeilen 76-85), Baseline aus baseline.csv: 48 Werte stimmen, 0 Abweichungen
+   [Info] N=2048 P=1 sortiert: [1.324, 1.327, 1.331, 1.339, 2.15, 2.154, 2.206, 2.207, 2.209, 2.209, 2.21, 2.21, 2.211, 2.212, 2.212, 2.212, 2.213, 2.213, 2.213, 2.214]
+   [Info] schnell n=4 1.324-1.339, langsam n=16 2.150-2.214, Faktor 1.66
+   [Info] N=4096 P=4: schnell n=8 1.909-1.974, langsam n=12 2.502-2.589, Faktor 1.31
+   [Info] N=2048 P=2: 0.712-0.732; N=4096 P=2: 2.772-2.836
+== A7 Befunde Zeilen 49-94: 9 Werte stimmen, 0 Abweichungen

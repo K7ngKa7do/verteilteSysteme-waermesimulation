@@ -1,0 +1,27 @@
+# Ausgabe von pruefe_teil1.py – erneut erzeugt am 15.11.2026 (Arbeitsbereich von Claude, Python 3.13.18, NumPy 2.5.3)
+# Aufruf: python3 pruefe_teil1.py ../../03_Messdaten_Sicherung/Sicherung_Cluster_2026-11-14
+[Baseline] geprueft 13, OK 13, Abweichungen 0
+Strong: Pruefsummen je N: {'2048': 1, '4096': 1}
+[Strong Scaling 28.10. + Karp-Flatt] geprueft 110, OK 110, Abweichungen 0
+[Weak Scaling 28.10.] geprueft 15, OK 15, Abweichungen 0
+[E1 Gittergroesse] geprueft 48, OK 48, Abweichungen 0
+[E2 slot/node] geprueft 72, OK 72, Abweichungen 0
+E2b Mediane slot/node: {('2048', '2'): (0.7256, 0.6902), ('2048', '36'): (0.1554, 0.531), ('4096', '2'): (2.7938, 2.7927), ('4096', '36'): (0.5987, 1.0537)}
+[E2b + Reproduzierbarkeit 01.11. gg. 28.10.] geprueft 12, OK 12, Abweichungen 0
+[E2d ppr] geprueft 27, OK 27, Abweichungen 0
+[E2c N=8192] geprueft 37, OK 37, Abweichungen 0
+[E10 Speicherbandbreite] geprueft 13, OK 13, Abweichungen 0
+E9 (N=8192, Regel 1, 25 B/Update):
+   slot P=1: 0.619 Mrd. Upd/s; x25 B = 15.5 GB/s; Kopierrate 13.27 GB/s; Anteil 117 %; (alt 16 B: 75 %)
+   slot P=4: 1.662 Mrd. Upd/s; x25 B = 41.5 GB/s; Kopierrate 39.71 GB/s; Anteil 105 %; (alt 16 B: 67 %)
+   slot P=8: 1.848 Mrd. Upd/s; x25 B = 46.2 GB/s; Kopierrate 48.04 GB/s; Anteil 96 %; (alt 16 B: 62 %)
+   slot P=12: 1.825 Mrd. Upd/s; x25 B = 45.6 GB/s; Kopierrate 46.84 GB/s; Anteil 97 %; (alt 16 B: 62 %)
+   ppr P=4: 2.175 Mrd. Upd/s; x25 B = 54.4 GB/s; Kopierrate 52.68 GB/s; Anteil 103 %; (alt 16 B: 66 %)
+   ppr P=8: 3.987 Mrd. Upd/s; x25 B = 99.7 GB/s; Kopierrate 92.04 GB/s; Anteil 108 %; (alt 16 B: 69 %)
+   ppr P=12: 5.256 Mrd. Upd/s; x25 B = 131.4 GB/s; Kopierrate 126.59 GB/s; Anteil 104 %; (alt 16 B: 66 %)
+   ppr P=24: 6.755 Mrd. Upd/s; x25 B = 168.9 GB/s; Kopierrate 181.88 GB/s; Anteil 93 %; (alt 16 B: 59 %)
+   ppr P=48: 7.140 Mrd. Upd/s; x25 B = 178.5 GB/s; Kopierrate 185.30 GB/s; Anteil 96 %; (alt 16 B: 62 %)
+E7 N=2048: s=0.0841, Smax=11.9, Abw. max 0.13
+E7 N=4096: s=0.0651, Smax=15.4, Abw. max 0.52
+E7 N=8192: s=0.0599, Smax=16.7, Abw. max 1.25
+[E7 Amdahl] geprueft 3, OK 3, Abweichungen 0

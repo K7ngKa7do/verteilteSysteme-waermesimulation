@@ -1,0 +1,7 @@
+# Ausgabe von e8_ecken.py – erneut erzeugt am 15.11.2026 (Python 3.13.18, NumPy 2.5.3)
+# Aufruf: python3 e8_ecken.py
+N | RMS alle | RMS ohne Ecken d<0.1 | RMS ohne d<0.25 | Max Kern | Max nahe Ecke (d<0.1)
+17 | 1.413e-01 | 1.419e-01 | 8.076e-02 | 1.204e-01 | 2.082e-03 
+33 | 6.838e-02 | 4.107e-02 | 1.989e-02 | 3.074e-02 | 7.183e-01   Verh.: 2.07 3.45 4.06 3.92 0.00
+65 | 3.365e-02 | 1.137e-02 | 4.879e-03 | 7.740e-03 | 7.180e-01   Verh.: 2.03 3.61 4.08 3.97 1.00
+129 | 1.669e-02 | 2.902e-03 | 1.211e-03 | 1.955e-03 | 7.180e-01   Verh.: 2.02 3.92 4.03 3.96 1.00

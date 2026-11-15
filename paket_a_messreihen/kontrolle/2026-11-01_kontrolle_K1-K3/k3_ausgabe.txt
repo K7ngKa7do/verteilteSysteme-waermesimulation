@@ -1,0 +1,16 @@
+E3 Zeilen 360
+   [Info] Hockney intra: alpha(8 B)=1.80 µs; beta aus Median-Gerade 7689 MB/s; aus Einzelwerten 7658 MB/s (Protokoll: 7689)
+   [Info] Hockney inter: alpha(8 B)=53.10 µs; beta aus Median-Gerade 118 MB/s; aus Einzelwerten 118 MB/s (Protokoll: 118)
+   [Info] Latenzverhältnis 29.48; Bandbreitenverhältnis (mit β 7689/118): 65.16
+== E3 (Zeilen 181-196): 44 Werte stimmen, 0 Abweichungen
+   [Info] {'Median-Gerade': 2, 'Einzelwerte': 1, 'β=118': 1, 'β=117,5': 6, 'Faktor': 3, 'Faktor(prot.Zahlen)': 6, 'Med(k)': 1, 'Med(k)/Med(z)*Med(z)': 1}
+== E3 Modellvergleich (Zeile 197): 13 Werte stimmen, 5 Abweichungen
+   ABWEICHUNG: Gemessen N=256 | Protokoll: 50,7 | neu: Med(k)=50.767; Med(k)/Med(z)*Med(z)=50.767; Med(k/z)*Med(z)=50.794
+   ABWEICHUNG: Gemessen N=512 | Protokoll: 63,7 | neu: Med(k)=63.791; Med(k)/Med(z)*Med(z)=63.791; Med(k/z)*Med(z)=63.798
+   ABWEICHUNG: Gemessen N=2048 | Protokoll: 110,5 | neu: Med(k)=110.6; Med(k)/Med(z)*Med(z)=110.6; Med(k/z)*Med(z)=110.76
+   ABWEICHUNG: Gemessen N=4096 | Protokoll: 231,5 | neu: Med(k)=231.66; Med(k)/Med(z)*Med(z)=231.66; Med(k/z)*Med(z)=231.57
+   ABWEICHUNG: Gemessen N=8192 | Protokoll: 954,4 | neu: Med(k)=954.55; Med(k)/Med(z)*Med(z)=954.55; Med(k/z)*Med(z)=957.58
+E10 Zeilen 220 Modi ['ein_rechner', 'vier_rechner']
+== E10 (Zeilen 235-241, 310): 35 Werte stimmen, 1 Abweichungen
+   ABWEICHUNG: E10 4*48,04 = 192,2 | Protokoll: 192,2 | neu: 192.144
+== E9 (Zeilen 243, 257-261): 21 Werte stimmen, 0 Abweichungen

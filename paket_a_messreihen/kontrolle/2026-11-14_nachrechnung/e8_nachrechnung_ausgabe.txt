@@ -1,0 +1,10 @@
+# Ausgabe von e8_nachrechnung.py – erneut erzeugt am 15.11.2026 (Python 3.13.18, NumPy 2.5.3)
+# Aufruf: python3 e8_nachrechnung.py e8_erg.npy
+17 {'steps': 907, 'rms_alle': '1.4125e-01', 'rms_o01': '1.4188e-01', 'rms_o025': '8.0756e-02', 'max_kern': '1.2042e-01', 'max_ecke': '2.0817e-03', 'n_ecke': 2, 'e11': '2.0817e-03', 'd11': '8.8388e-02'}
+33 {'steps': 3631, 'rms_alle': '6.8379e-02', 'rms_o01': '4.1071e-02', 'rms_o025': '1.9894e-02', 'max_kern': '3.0736e-02', 'max_ecke': '7.1827e-01', 'n_ecke': 12, 'e11': '1.3098e-04', 'd11': '4.4194e-02'}
+65 {'steps': 14525, 'rms_alle': '3.3648e-02', 'rms_o01': '1.1372e-02', 'rms_o025': '4.8790e-03', 'max_kern': '7.7402e-03', 'max_ecke': '7.1802e-01', 'n_ecke': 52, 'e11': '8.2556e-06', 'd11': '2.2097e-02'}
+129 {'steps': 58101, 'rms_alle': '1.6692e-02', 'rms_o01': '2.9020e-03', 'rms_o025': '1.2111e-03', 'max_kern': '1.9553e-03', 'max_ecke': '7.1800e-01', 'n_ecke': 230, 'e11': '5.3133e-07', 'd11': '1.1049e-02'}
+rms_alle Verhaeltnisse: [2.07, 2.03, 2.02]
+rms_o01 Verhaeltnisse: [3.45, 3.61, 3.92]
+rms_o025 Verhaeltnisse: [4.06, 4.08, 4.03]
+max_kern Verhaeltnisse: [3.92, 3.97, 3.96]

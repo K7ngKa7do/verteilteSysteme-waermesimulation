@@ -1,0 +1,1 @@
+Komm%-Werte, die NICHT mit Median(komm)/Median(zeit) übereinstimmen: 0

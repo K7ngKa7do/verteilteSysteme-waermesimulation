@@ -1,0 +1,5 @@
+   [Info] Komm%-Def.: {'Med(k)/Med(z)': 18, 'Med(k/z)': 4}
+== E4 (Zeilen 269-275): 55 Werte stimmen, 0 Abweichungen
+== E5 (Zeilen 280-285): 52 Werte stimmen, 0 Abweichungen
+E5b Zeilen [60, 60, 120]
+== E5b (Zeilen 290-294): 86 Werte stimmen, 0 Abweichungen
