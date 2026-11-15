@@ -1,0 +1,45 @@
+Datum: Sa 24. Okt 17:42:33 CEST 2026
+=== manager
+Rechner: manager
+Kernel: 7.0.0-38-generic
+Regler: performance 
+numpy 2.5.4 numba 0.68.0 mpi4py 4.1.2
+mpirun (Open MPI) 4.1.6
+CPU(s):                                  24
+Model name:                              Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
+Thread(s) per core:                      2
+L3 cache:                                30 MiB (1 instance)
+Speicher: 62 GiB
+=== 139.6.65.26
+Rechner: node7
+Kernel: 7.0.0-31-generic
+Regler: performance 
+numpy 2.5.4 numba 0.68.0 mpi4py 4.1.2
+mpirun (Open MPI) 4.1.6
+CPU(s):                                  24
+Model name:                              Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
+Thread(s) per core:                      2
+L3 cache:                                30 MiB (1 instance)
+Speicher: 62 GiB
+=== 139.6.65.24
+Rechner: Node6
+Kernel: 7.0.0-31-generic
+Regler: performance 
+numpy 2.5.4 numba 0.68.0 mpi4py 4.1.2
+mpirun (Open MPI) 4.1.6
+CPU(s):                                  24
+Model name:                              Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
+Thread(s) per core:                      2
+L3 cache:                                30 MiB (1 instance)
+Speicher: 62 GiB
+=== 139.6.65.28
+Rechner: node8
+Kernel: 7.0.0-31-generic
+Regler: performance 
+numpy 2.5.4 numba 0.68.0 mpi4py 4.1.2
+mpirun (Open MPI) 4.1.6
+CPU(s):                                  24
+Model name:                              Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
+Thread(s) per core:                      2
+L3 cache:                                30 MiB (1 instance)
+Speicher: 62 GiB
